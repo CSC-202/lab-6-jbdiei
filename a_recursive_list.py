@@ -33,11 +33,13 @@ class List:
 
 
 def initialize() -> List:
-    raise NotImplementedError("List.initialize() not defined")
+    return List()
+    # raise NotImplementedError("List.initialize() not defined")
 
 
 def isEmpty(data: List) -> bool:
-    raise NotImplementedError("List.isEmpty() not defined")
+    return data.head == None
+    # raise NotImplementedError("List.isEmpty() not defined")
 
 
 def addAtIndex(data: List, index: int, value: int) -> List:

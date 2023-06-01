@@ -33,10 +33,12 @@ class Queue:
 
 
 def initialize() -> Queue:
+    return Queue()
     raise NotImplementedError("Queue.initialize() not defined")
 
 
 def isEmpty(data: Queue) -> bool:
+    return data.first
     raise NotImplementedError("Queue.isEmpty() not defined")
 
 
